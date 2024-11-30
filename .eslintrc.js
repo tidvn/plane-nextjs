@@ -77,11 +77,6 @@ module.exports = {
               position: "after",
             },
             {
-              pattern: "@plane/**",
-              group: "external",
-              position: "after",
-            },
-            {
               pattern: "@/**",
               group: "internal",
             },

@@ -12,7 +12,7 @@ import { WEB_BASE_URL, cn } from "@/helpers/common.helper";
 // hooks
 import { useTheme } from "@/hooks/store";
 // assets
-import packageJson from "package.json";
+// import packageJson from "package.json";
 
 const helpOptions = [
   {
@@ -129,7 +129,7 @@ export const HelpSection: FC = observer(() => {
                   );
               })}
             </div>
-            <div className="px-2 pb-1 pt-2 text-[10px]">Version: v{packageJson.version}</div>
+            <div className="px-2 pb-1 pt-2 text-[10px]">Version: 0</div>
           </div>
         </Transition>
       </div>

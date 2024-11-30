@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 // constants
-import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
+import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@/constants";
 // types
 import { IWorkspace } from "@/types";
 // components
