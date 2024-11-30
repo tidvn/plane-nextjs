@@ -5,21 +5,7 @@ module.exports = {
   darkMode: "class",
   content: {
     relative: true,
-    files: [
-      "./app/**/*.{js,ts,jsx,tsx}",
-      "./core/**/*.{js,ts,jsx,tsx}",
-      "./ce/**/*.{js,ts,jsx,tsx}",
-      "./ee/**/*.{js,ts,jsx,tsx}",
-      "./components/**/*.tsx",
-      "./constants/**/*.{js,ts,jsx,tsx}",
-      "./layouts/**/*.tsx",
-      "./pages/**/*.tsx",
-      "./app/**/*.tsx",
-      "./ui/**/*.tsx",
-      "../packages/ui/src/**/*.{js,ts,jsx,tsx}",
-      "../packages/editor/src/**/*.{js,ts,jsx,tsx}",
-      "!../packages/ui/**/*.stories{js,ts,jsx,tsx}",
-    ],
+    files: ["./src/**/*.{js,ts,jsx,tsx}"],
   },
   theme: {
     extend: {
